@@ -1,0 +1,121 @@
+.mainform
+{
+	width: 100%;
+	max-width: 350px;
+}
+
+
+.maindiv
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.maindiv div
+{
+	padding: 15px 0;
+}
+
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.maindiv label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.maindiv label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.maindiv input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.maindiv label span{
+	color: red;
+}
+.maindiv .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #009b97;
+	cursor: pointer;
+	border: 3px #009b97 solid;
+	border-radius: 5px;
+}
+.maindiv .bot-send-mail:hover{
+	color: #009b97;
+	background-color: #fff;
+}
+
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 350px;
+}
+
+.maindiv{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+<div><label>Имя <span>*</span></label>
+<input type='text' name='username' required></div>
+
+.maindiv div{
+	padding: 15px 0;
+}
+
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.maindiv label,.form-zvonok input{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+}
+
+.maindiv label{
+        margin-bottom: 5px;
+        font-weight: bold;
+}
+.maindiv input{
+        padding: 10px 15px;
+        margin-top: 10px;
+}
+
+.maindiv label span{
+        color: red;
+}
+
+.maindiv .bot-send-mail{
+        padding: 15px;
+        margin-top: 10px;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        background-color: #009b97;
+        cursor: pointer;
+        border: 3px #009b97 solid;
+        border-radius: 5px;
+}
+
+.maindiv .bot-send-mail:hover{
+        color: #009b97;
+        background-color: #fff;
+}

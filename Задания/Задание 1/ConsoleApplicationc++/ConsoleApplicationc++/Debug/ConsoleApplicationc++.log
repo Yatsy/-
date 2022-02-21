@@ -1,0 +1,3 @@
+﻿  ConsoleApplicationc++.cpp
+C:\Users\karon\source\repos\ConsoleApplicationc++\ConsoleApplicationc++\ConsoleApplicationc++.cpp(12,23): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplicationc++.vcxproj -> C:\Users\karon\source\repos\ConsoleApplicationc++\Debug\ConsoleApplicationc++.exe
