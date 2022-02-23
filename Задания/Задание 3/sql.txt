@@ -1,0 +1,6 @@
+1
+SELECT * FROM `books`
+2
+SELECT books.name as book_name,CONCAT(autors.First_name,' ',autors.Last_Name)autors_name FROM `books_genre` LEFT JOIN books ON books_genre.book_id=books.id LEFT JOIN books_autors ON books_autors.book_id=books.id LEFT JOIN autors ON books_autors.autor_id=autors.id WHERE books_genre.genre_id=3
+3
+SELECT DISTINCT autors.First_name,autors.Last_Name,(SELECT COUNT(*) FROM books_autors WHERE autor_id=autors.id) as books_count FROM `books_autors` LEFT JOIN autors ON books_autors.autor_id=autors.id ORDER BY books_count DESC LIMIT 1
