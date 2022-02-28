@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+ <head>
+  <title>Задача №2 — «Форма обратной связи»</title>
+  
+  <meta charset=utf-8>
+  <meta name="description" lang="ru" content="Форма обратной связи">
+  <meta name="author" content="Vladyslav Yatsenko">
+  <meta name="keywords" content="Форма обратной связи">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+ </head>
+ <body>
+ 
+
+	
+	
+  <form id="form" class="mainform" autocomplete="off" method="post" action="data.php">
+	<div class="maindiv"> 
+  		<div>
+    		<label>ФИО<span>*</span></label>
+    		<input type='text' id="username" name='username' required minlength="6" maxlength="30">
+		</div>
+		<div>
+			<label>Адрес</label>
+			<input type='text' name='useraddress'  minlength="3" maxlength="15">
+		</div>
+		<div>
+			<label>Mail</label>
+			<input type='text' id="mail" name='usermail'  minlength="6" maxlength="30">
+		</div>
+  		<div>
+    		<label>Номер телефона (с кодом) <span>*</span></label>
+    		<input type='text' id="usernumber" name='usernumber' required minlength="12" maxlength="12">
+		</div>
+  		<div>
+   	 		<label>Комментарий</label>
+    		<input type='text' name='usercomments' minlength="0" maxlength="30">
+  		</div>
+	
+		<div>
+			<p><input type="file" name="f"></p>
+		</div>
+		<div>
+  			<input class="bot-send-mail" type='submit' name="send" value='Отправить'  >
+		</div>
+	</div>	
+	</form>
+
+
+ </body>
+</html>
